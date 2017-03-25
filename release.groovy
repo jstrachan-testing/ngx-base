@@ -42,7 +42,7 @@ def updateDownstreamProjects(v){
     pushPackageJSONChangePR{
         propertyName = 'ngx-base'
         projects = [
-                'fabric8io/fabric8-ui'
+                'fabric8-ui/fabric8-npm-dependencies'
         ]
         version = v
     }
