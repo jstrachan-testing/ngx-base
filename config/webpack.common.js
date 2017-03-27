@@ -10,8 +10,6 @@ const helpers = require('./helpers'),
 /**
  * Webpack Plugins
  */
-// const AssetsPlugin = require('assets-webpack-plugin');
-// const autoprefixer = require('autoprefixer');
 // const CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin;
 // const CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin');
@@ -26,7 +24,6 @@ const LoaderOptionsPlugin = require('webpack/lib/LoaderOptionsPlugin');
 const NormalModuleReplacementPlugin = require('webpack/lib/NormalModuleReplacementPlugin');
 const OptimizeJsPlugin = require('optimize-js-plugin');
 const ProvidePlugin = require('webpack/lib/ProvidePlugin');
-// const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 const UglifyJsPlugin = require('webpack/lib/optimize/UglifyJsPlugin');
 
 
@@ -133,28 +130,11 @@ module.exports = {
 
     new webpack.LoaderOptionsPlugin({
       options: {
-        /**
-         * Html loader advanced options
-         *
-         * See: https://github.com/webpack/html-loader#advanced-options
-         */
-        // TODO: Need to workaround Angular 2's html syntax => #id [bind] (event) *ngFor
-        // htmlLoader: {
-        //   minimize: true,
-        //   removeAttributeQuotes: false,
-        //   caseSensitive: true,
-        //   customAttrSurround: [
-        //     [/#/, /(?:)/],
-        //     [/\*/, /(?:)/],
-        //     [/\[?\(?/, /(?:)/]
-        //   ],
-        //   customAttrAssign: [/\)?\]?=/]
-        // },
-
         tslintLoader: {
           emitErrors: false,
           failOnHint: false
         },
+
         /**
          * Sass
          * Reference: https://github.com/jtangelder/sass-loader
