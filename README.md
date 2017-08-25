@@ -61,7 +61,7 @@ fabric8-ui, you should:
 
 1. Run `npm run watch:library` in this directory. This will build ngx-base as
 a library and then set up a watch task to rebuild any ts, html and scss files you
-change.
+change.  
 2. In the webapp into which you are embedding, run `npm link <path to ngx-base>/dist-watch`.
 This will create a symlink from `node_modules/ngx-base` to the `dist-watch` directory
 and install that symlinked node module into your webapp.
