@@ -57,7 +57,7 @@ build manually, instead you should let the CD pipeline do a semantic release.
 ### Development
 
 To build ngx-base as an npm library and embed it into a webapp such as
-fabric8-ui, you should:
+fabric8-ui, you should:  
 
 1. Run `npm run watch:library` in this directory. This will build ngx-base as
 a library and then set up a watch task to rebuild any ts, html and scss files you
