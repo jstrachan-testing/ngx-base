@@ -49,7 +49,7 @@ To build ngx-base as a npm library, use:
 npm run build
 ----
 
-Whilst the standalone build uses webpack the library build uses gulp.
+Whilst the standalone build uses webpack the library build uses gulp.  
 
 The created library is located in `dist`. You shouldn't ever publish the
 build manually, instead you should let the CD pipeline do a semantic release.
