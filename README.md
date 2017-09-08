@@ -15,7 +15,7 @@ This library does not run on it's own. It must be imported.
 
 `npm install ngx-base`
 
-There are several services and a couple of models used by them available.
+There are several services and a couple of models used by them available. 
 
     Notifications
     Broadcaster
