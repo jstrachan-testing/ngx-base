@@ -1,6 +1,6 @@
 {
   "name": "ngx-base",
-  "version": "0.0.0-development",
+  "version": "4.5.6",
   "description": "Common services for working with Fabric8 Work Item Tracker",
   "main": "bundles/ngx-base.umd.js",
   "module": "index.js",
